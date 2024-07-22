@@ -1,1 +1,1 @@
-# SmartParking
+Develpoed a website known as "ParkSmart", A Parking management website which is used to dynamically allocate parking slots and real time status of the parking slots can be visible including securty surveillance.
