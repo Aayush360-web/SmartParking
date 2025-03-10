@@ -1,0 +1,144 @@
+.App3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .Sidebar{
+    padding-top: 1%; 
+    height: 100%;
+    width: 400px;
+    background-color: rgb(17, 22, 41)/*rgb(2,53,60); */
+    
+  }
+  .SideBarList{
+    height: auto;
+    padding: 0;
+    width:100%;
+    
+  }
+  
+  .SideBarList .Row{
+      width: 100%;
+      height:60px;
+      display: flex;
+      flex-direction: row;
+      color: white;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: large;
+  }
+  .SideBarList .Row:hover{
+     cursor: pointer;
+    background-color: rgb(3,86,99);
+  
+      
+  }
+  .SideBarList #active{
+    background-color: rgb(3,86,99);
+  }
+  .Row #icon{
+        flex: 20%;
+        display: grid;
+        place-items: center;
+   
+  }
+  .Row #title{
+    flex: 70%;
+  }
+  
+  .Nav{
+
+    height:10%;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+     background-color: rgb(2,53,60)
+     
+  
+  }
+  .Nav #Heading{
+    color: aliceblue;
+    padding-left: 30%;
+    padding-top:0.1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+  .Logo{
+    margin-left: 25px;
+    height: 30%;
+    width: 250px;
+   margin-bottom: 30px;
+    
+  }
+  .Container {
+    width: 40%; /* Adjust the width as needed */
+    margin-top: 1%;
+    position: relative;
+  }
+
+.CreateNewSlots-content {
+    background-color:rgb(204,219,234); /* Background color for the content */
+    padding: 20px;
+    border-radius: 10px;
+    height: 85vh;
+}
+
+.form-title {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(3,86,99);
+    font-weight: 700;
+    
+}
+
+.Form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type='text'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Form-button {
+    text-align: center;
+}
+
+.Formsubmit {
+    padding: 10px 20px;
+    background-color: #111629; /* Button background color */
+    color: #fff; /* Button text color */
+    font-size:larger;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    height: 50px;
+}
+
+.Formsubmit:hover {
+    background-color:   rgb(3,86,99); /* Button background color on hover */
+}
+
+.Gif{
+  position: absolute;
+  top: 0;
+  left: calc(100% + 0px);
+  height:90vh;
+  width: 150%;
+  margin-right: 2%;
+
+
+}
